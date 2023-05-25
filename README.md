@@ -7,7 +7,7 @@ The `effectra/http-server-middleware` library provides middleware classes for ha
 Install the library using Composer:
 
 ```bash
-composer require effectra/http-server-middleware
+composer require effectra/http-middleware
 ```
 
 ## Usage
