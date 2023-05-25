@@ -1,4 +1,4 @@
-# effectra/http-server-middleware
+# Effectra Middleware
 
 The `effectra/http-server-middleware` library provides middleware classes for handling HTTP requests and responses in server applications.
 
