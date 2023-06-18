@@ -38,23 +38,6 @@ class MyMiddleware extends Middleware implements MiddlewareInterface
 }
 ```
 
-### Generate Class
-
-The `Effectra\Http\Server\Generate` class provides a convenient way to generate new middleware classes based on the `Middleware` base class.
-
-#### baseMiddleware Method
-
-The `baseMiddleware` method generates a new middleware class file with the provided name and saves it to the specified path.
-
-```php
-use Effectra\Http\Server\Generate;
-
-$generator = new Generate($creator);
-$generator->baseMiddleware('/path/to/middleware', 'MyMiddleware');
-```
-
-The above code will generate a new middleware class file named `MyMiddleware.php` and save it to the `/path/to/middleware` directory. The generated class will extend the `Middleware` class and implement the `MiddlewareInterface`.
-
 ## Contributing
 
 Contributions are welcome! Please feel free to submit bug reports, feature requests, or pull requests.

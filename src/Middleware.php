@@ -32,4 +32,9 @@ class Middleware implements MiddlewareInterface
 
         return $response;
     }
+
+    public function __toString()
+    {
+        return static::class;   
+    }
 }
