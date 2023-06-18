@@ -18,7 +18,6 @@ use Psr\Http\Server\RequestHandlerInterface;
  */
 class Middleware implements MiddlewareInterface
 {
-    protected $middlewares = [];
     /**
      * Process the server request and return the response.
      *
